@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Hướng dẫn cài đặt và chạy dự án
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Yêu cầu
 
-## Available Scripts
+- Node.js (khuyến nghị phiên bản mới nhất)
+- npm hoặc yarn
 
-In the project directory, you can run:
+## Các bước cài đặt
 
-### `npm start`
+1. **Clone dự án về máy:**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Cài đặt các thư viện phụ thuộc:**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   ```
+   npm install
+   ```
 
-### `npm test`
+3. **Chạy ứng dụng:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   npm start
 
-### `npm run build`
+4. **Truy cập ứng dụng:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   - Người dùng: [http://localhost:3000/quan_an/](http://localhost:3000/quan_an/)
+   - Trang admin: [http://localhost:3000/quan_an/#/admin](http://localhost:3000/quan_an/#/admin)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. **Đăng nhập vào trang admin:**
+   - Sử dụng tài khoản: Tên đăng nhập: quangtr36@gmail.com
+     password:add123
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Ghi chú
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Đảm bảo đã cài đặt Node.js và npm/yarn trước khi thực hiện các bước trên.
+- Nếu gặp lỗi, hãy kiểm tra lại phiên bản Node.js hoặc xóa thư mục `node_modules` và chạy lại `npm install`.
